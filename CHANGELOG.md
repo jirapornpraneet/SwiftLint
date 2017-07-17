@@ -54,6 +54,11 @@
 * Support building with Xcode 9 beta 3 in Swift 3.2 mode.  
   [JP Simard](https://github.com/jpsim)
 
+* Add `unneeded_parentheses_in_closure_argument` correctable rule that warns
+  against using parentheses around argument declarations in closures.  
+  [Marcelo Fabri](https://github.com/marcelofabri)
+  [#1483](https://github.com/realm/SwiftLint/issues/1483)
+
 ##### Bug Fixes
 
 * Fix false positive on `redundant_discardable_let` rule when using

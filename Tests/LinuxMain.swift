@@ -372,6 +372,7 @@ extension RulesTests {
         ("testTrailingSemicolon", testTrailingSemicolon),
         ("testTrailingWhitespace", testTrailingWhitespace),
         ("testTypeBodyLength", testTypeBodyLength),
+        ("testUnneededParenthesesInClosureArgument", testUnneededParenthesesInClosureArgument),
         ("testUnusedClosureParameter", testUnusedClosureParameter),
         ("testUnusedEnumerated", testUnusedEnumerated),
         ("testValidIBInspectable", testValidIBInspectable),
